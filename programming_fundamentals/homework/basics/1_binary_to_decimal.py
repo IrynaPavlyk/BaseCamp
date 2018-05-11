@@ -11,7 +11,8 @@ __email__ = "p.ivanchyshyn@gmail.com"
 # You should solve this task manually and verify the results using this script.
 test_year = 11100111101
 decimal_year = input("Please enter a decimal representation for {}:".format(test_year))
-assert int(str(test_year), 2) == decimal_year, "Invalid answer. Please check your decimal representation."
+assert int(str(test_year), 2) == int(decimal_year), "Invalid answer. Please check your decimal representation."
 print("=" * 60)
 print("Congratulations! You've done it!")
 print("=" * 60)
+# my answer is : 1853
